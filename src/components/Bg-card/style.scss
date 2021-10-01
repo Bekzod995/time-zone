@@ -1,0 +1,36 @@
+.bg-card{
+    width: 100%;
+    height: 620px;
+    background-image: url(../../assets/img/gallery/sectin_bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    .bg-card-icon{
+        width: 470px;
+        height: 145px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 100px;
+        position: absolute;
+        top: 475px;
+        .bg-card-text{
+            color: white;
+            font-weight: bold;
+        }
+        .bg-card-icon-right{
+            width: 20px;
+            height: auto;
+        }
+    }
+    .bg-card-icon-play{
+        width: 90px;
+        height: auto;
+        position: absolute;
+        top: 40%;
+        left: 48%;
+        background-color: white;
+        border-radius: 50%;
+    }
+}

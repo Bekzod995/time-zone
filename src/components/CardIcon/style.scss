@@ -1,0 +1,29 @@
+.card-icon {
+    padding: 180px 0 100px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        background-color: red;
+        .card-icon-t-i {
+            color: white;
+            .card-icon-i {
+                width: 40px;
+                height: auto;
+            }
+            .card-icon-title {
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .card-icon-text1 {
+                margin-bottom: 10px;
+                color: grey;
+            }
+            .card-icon-text2 {
+                color: grey;
+            }
+        }
+    }
+}
